@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #x, #y {
+            width: 200px;
+            height: 200px;
+        }
+        #x { background: black; }
+        #y { background: blue; }
+    </style>
+   
+   
+</head>
+<body>
+    <div id="x"></div>
+    <div id="y"></div>
+   
+</body>
+<script>
+    $( "#x" ).draggable({ axis: "x" });
+    $( "#y" ).draggable({ axis: "y" });
+</script>
+</html>

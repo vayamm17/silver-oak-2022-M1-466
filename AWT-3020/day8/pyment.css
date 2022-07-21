@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* box-sizing: border-box; */
+    /* background-color: beige; */
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    /* font-size: 10px; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+.tital{
+    text-align: center;
+    /* background-color: azure; */
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    /* font-size: 10px; */
+}
+.contnar{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 10px solid lightgray;
+    border-radius: 4px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 17px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+
+}
+fieldset{
+    background-color: #f2f2f2;
+    border: 3px solid #ccc;
+}
+

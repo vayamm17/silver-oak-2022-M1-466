@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html media queries</title>
+    
+    <style>
+        body{
+            font: 14px Georgia,serif;
+            background: #ccc;
+        }
+   
+        h3{
+            margin: 0 0 8px 0;
+        }
+        p{
+            margin: 0 0 20px 0;
+        }
+        #fluid-wrap{
+            width: 70%;
+            margin: 60px auto;
+            padding: 20px;
+            background: #ccc;
+            overflow: hidden;
+        }
+        #sidebar{
+            width: 35%;
+            float: left;
+        }
+        #sidebar ul li a {
+            color: #900;
+            text-decoration: none;
+            display: block;
+        }
+        @media all and (min-width: 1001px){
+            #sidebar ul li a:after {
+                content: "("att(data-email)")";
+            }  
+        }
+        @media all and (max-width: 1010px) and (min-width: 700px){
+            #sidebar ul li a::before{
+                content: "(email)";
+                padding: 10px;
+                font-size: smaller;
+                font-style: italic;
+                color: antiquewhite;
+            }
+        }
+        #main-content{
+            width: 65%;
+            float: right;
+        }
+    
+            
+        
+
+    </style>
+</head>
+<body>
+    <div id="fluid-wrap">
+        <div id="sidebar">
+    <h3>Team kd group:</h3>
+    <ul id="nav">
+        <li><a data-email="vayampandya39@gmail.com" href="#">vayam</a></li>
+        <li><a data-email="savan9@gmail.com" href="#">savan</a></li>
+        <li><a data-email="kirpalvala3@gmail.com" href="#">kirpal</a></li>
+    </ul>
+</div>
+    <div id="main-content">
+        <p>As students advance, to improve writing skills they need in-depth support. They need to organize their thoughts and learn to clearly communicate their ideas in writing.
+
+            However, it can be challenging for teachers to provide personal attention to each pupil. This is where Paragraph Punch fits in.
+            
+            Paragraph Punch takes users through the process of writing a basic paragraph. From pre-set writing prompts users develop an idea and write their own topic sentence, body, and a conclusion.
+            
+            The site provides online interactive exercises that guide users step by step through pre-writing, writing, organizing, editing, rewriting, and publishing.
+            
+            Why wait? This is the best time to add Punch to your writing skills. Follow the quick steps below and start writing now!</p>
+        <p>this is very important</p>
+    </div>
+    <div class="ds">
+        
+    </div>
+    <div class="da">
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+    </div>
+    <div class="dq">
+        <div class="cd"></div>
+        <div class="cd"></div>
+        <div class="cd"></div>
+        <div class="cd"></div>
+    </div>
+</body>
+</html>

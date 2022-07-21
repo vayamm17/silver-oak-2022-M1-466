@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+   <style>
+      p{
+         color: blue;
+         font-size: 30px;
+         
+      }
+   </style>
+<title>Chaining</title>
+<script src="https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"></script>
+<script>
+   $(document).ready(function() {
+      $("button").click(function(){
+         $("p").css("color", "red").fadeOut(1000).fadeIn(1000);
+      });
+   });
+</script>
+<style>
+   button{width:100px;cursor:pointer;}
+</style>
+</head>
+<body>
+   <p>Click the below button to see the result:</p>
+
+   <button>Click Me</button>
+</body>
+</html>
