@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'poppins';
+    background-color: lightblue;
+    background: url("kalp.mp4") no-repeat;
+    line-height:1.8;
+    background-size: cover;
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+}
+#container{
+     max-width: 430px;
+     margin:auto;
+     padding: 20px ;
+}
+.form-wrap{
+    background: #fff;
+    padding: 15px 25px;
+    color: #333;
+    border-top: 4px solid #49c1a2;
+    border-radius: 05px;
+}
+.form-wrap h1,
+.form-wrap p{
+    text-align: center;
+}
+.form-wrap .form-group{
+    margin-top: 15px;
+}
+.form-wrap .form-group label{
+    display: block;
+    color: #666;
+}
+.form-wrap .form-group input{
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid; 
+    border-radius: 5px;
+}
+.form-wrap button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #49c1a2;
+    color: #ffff;
+    border: 1px solid #49c1a2;
+    font-family: 'poppins';
+    font-size: 17px;
+    transition: 1ms;
+}
+.form-wrap button:hover{
+    background-color:green;
+}
+footer{
+        text-align: center;
+        margin-top: 10px;
+        color: orange;
+}
+footer a{
+    color: white;
+}
+#background-video{
+    width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("kalp.mp4") no-repeat;
+      background-size: cover;
+    }
+}
+.dev{
+    padding-top:80px;
+    color: #ddd;
+    float:right;
+}
+.dev1{
+    padding-top:355px;
+    color: #ddd;
+    float:right;
+}
